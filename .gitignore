@@ -1,0 +1,8 @@
+.DS_Store
+.env*
+.snowpack
+*.lock
+*.log*
+dist
+node_modules
+package-lock.json

@@ -1,0 +1,22 @@
+{
+  "name": "astro",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build"
+  },
+  "devDependencies": {
+    "astro": "0.19.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "@snowpack/plugin-postcss": "^1.4.3",
+    "cqfill": "^0.6.0"
+  },
+  "postcss": {
+    "plugins": {
+      "cqfill/postcss": {}
+    }
+  }
+}
